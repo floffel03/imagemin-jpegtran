@@ -57,9 +57,9 @@ module.exports = function (opts) {
 
 		cp.on('close', function () {
 			if (err) {
-				err = new Error(err);
-				err.fileName = file.path;
-				cb(err);
+				//err = new Error(err);
+				//err.fileName = file.path;
+				//cb(err);
 				return;
 			}
 
